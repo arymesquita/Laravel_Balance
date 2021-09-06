@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Balance;
 Use App\Models\Historic;
-use App\Http\Requests\MoneyValidationformRequest;
+use App\Http\Requests\MoneyValidationFormRequest;
 
 class BalanceController extends Controller
 {
