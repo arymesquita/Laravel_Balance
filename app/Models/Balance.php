@@ -92,7 +92,7 @@ class Balance extends Model
 
      }
 
-    public function transfer(float $value, \App\User $sender): Array
+    public function transfer(float $value, \App\Models\User $sender): Array
     {
         if ($this->amount < $value)
             return [
